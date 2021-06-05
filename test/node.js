@@ -1,7 +1,6 @@
 var test = require('./test'),
-    puts = require('util').puts,
     startTS = (new Date).getTime();
 
 test();
 
-puts('OK - '+( (new Date).getTime() - startTS )/1000+'s');
+console.log('OK - '+( (new Date).getTime() - startTS )/1000+'s');
